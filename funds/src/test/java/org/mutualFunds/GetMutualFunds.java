@@ -27,12 +27,12 @@ public class GetMutualFunds extends BaseTest  {
 
     @Test(groups = {"regression", "functional"})
     public void verifyTitle() {
-        Assert.assertEquals(mutualFundsPage.getTitle(), "Vanguard mutual funds");
+        Assert.assertEquals(mutualFundsPage.getTitle(), "xxx mutual funds");
     }
 
     @Test(groups = {"regression", "functional"})
     public void verifyName() {
-        System.out.println(mutualFundsPage.getIndexOfSymbol("VAIGX"));
+        System.out.println(mutualFundsPage.getIndexOfSymbol("XXIGX"));
     }
 
     @AfterTest()
